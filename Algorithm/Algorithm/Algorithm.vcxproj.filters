@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Algorithm.cpp" />
+    <ClCompile Include="PriorityQueue\PriorityQueue.cpp">
+      <Filter>PriorityQueue</Filter>
+    </ClCompile>
+    <ClCompile Include="Heap\Heap.cpp">
+      <Filter>Heap</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="PriorityQueue">
+      <UniqueIdentifier>{04ed1273-83a3-4ba0-b0ea-1ddd2975b4fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Heap">
+      <UniqueIdentifier>{410901e2-d6fa-456f-9ecf-be215c492911}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PriorityQueue\PriorityQueue.h">
+      <Filter>PriorityQueue</Filter>
+    </ClInclude>
+    <ClInclude Include="Heap\Heap.h">
+      <Filter>Heap</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
